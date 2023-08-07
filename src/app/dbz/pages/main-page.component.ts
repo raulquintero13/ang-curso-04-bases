@@ -13,6 +13,10 @@ public characters: Character [] = [{
 {
   name: 'goku',
   power: 3500
+},
+{
+  name: 'tercero',
+  power: 1300
 }
 
 ];
