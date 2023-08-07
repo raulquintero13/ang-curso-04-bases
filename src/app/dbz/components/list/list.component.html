@@ -5,9 +5,13 @@
         let i = index;
         let isFirst = first;
         let isLast = last;
-        let isEven  = even
+        let isOdd  = even;
         "
-      class="list-group-item">
+      class="list-group-item"
+      [ngClass] = "{
+        'list-group-item-dark': isLast,
+        'list-group-item-success': isOdd,
+      }">
         <span class="text-primary">{{ i+1 }}</span>
         {{ character.name }} -
         {{ character.power}}
