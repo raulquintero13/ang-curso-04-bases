@@ -6,18 +6,22 @@ import {Character} from '../interfaces/character.interface';
 })
 
 export class MainPageComponent{
-public characters: Character [] = [{
-  name: 'krillin',
-  power: 1000
-},
-{
-  name: 'goku',
-  power: 3500
-},
-{
-  name: 'tercero',
-  power: 1300
-}
+  public characters: Character [] = [{
+    name: 'krillin',
+    power: 1000
+  },
+  {
+    name: 'goku',
+    power: 3500
+  },
+  {
+    name: 'tercero',
+    power: 1300
+  }
 
-];
+  ];
+
+  onNewCharacter ( character: Character):void{
+    console.log(character);
+  }
 }
