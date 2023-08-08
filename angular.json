@@ -46,6 +46,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "baseHref": "./",
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
